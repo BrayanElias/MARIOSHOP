@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="images/mario_favicon.ico" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Home || Mario Shop</title>
+  </head>
+
+  <body>
+    <!----------------------------------- Inicio de Header-------------------------------------------------->
+    <header>
+      <nav class="nabvar container">
+        <picture class="nabvar__logo">
+          <a href="index.html"
+            ><img
+              class="imagen__logo"
+              src="images/logo_mario.png"
+              alt="Logotipo mario shop"
+            />
+          </a>
+        </picture>
+        <ul class="nabvar__menu">
+          <li class="nabvar__item with-submenu">
+            <a class="nabvar__link with-icon" href="shop/shop.html"
+              >SHOP<iconify-icon icon="mdi:chevron-down"></iconify-icon>
+            </a>
+            <ul class="submenu">
+              <li class="submenu__item">
+                <a href="" class="submenu__link">Funkos</a>
+              </li>
+              <li class="submenu__item">
+                <a href="" class="submenu__link">Polos</a>
+              </li>
+              <li class="submenu__item">
+                <a href="" class="submenu__link">Llaveros</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nabvar__item">
+            <a class="nabvar__link" href="pages/contacto.html">CONTACTO</a>
+          </li>
+          <li class="nabvar__item">
+            <a class="nabvar__link" href="pages/login.html">LOGIN</a>
+          </li>
+          <li class="nabvar__item">
+            <a class="nabvar__cart" href="pages/cart.html"
+              ><img src="images/carrito.png" alt="Icono de carrito" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!----------------------------------- Fin de Header------------------------------------------------------>
+    <!----------------------------------- HERO------------------------------------------------------>
+    <section class="hero">
+      <article class="hero__content container">
+        <h3 class="hero__title">Nuevos Ingresos</h3>
+        <p class="hero__text">
+          Descubre el próximo Funko de Mario Bros para tu colección
+        </p>
+        <a class="hero__link" href="pages/shop.html">SHOP</a>
+      </article>
+    </section>
+    <!-----------------------------------FIN HERO------------------------------------------------------>
+    <!-----------------------------------INICIO MAIN------------------------------------------------------>
+
+    <main class="main-container">
+      <section class="collection container">
+        <article class="collection__content">
+          <h3 class="collection__title">
+            | Mario Bross | <br />
+            Coleccion Mario
+          </h3>
+          <p class="collection__text">
+            El héroe principal del Reino Champiñón. Mario es muy positivo y
+            siempre está alegre. Lo podrás reconocer por sus overoles de color
+            azul, su gorra roja y su característico bigote.
+          </p>
+          <a class="collection__link" href="pages/shop.html">Ver Colección</a>
+        </article>
+        <picture class="collection__cover">
+          <img
+            src="images/funko_mario.png"
+            alt="Figura coleccionable de MarioBros"
+        /></picture>
+      </section>
+
+      <section class="collection container">
+        <article class="collection__content">
+          <h3 class="collection__title">| Luigi |</h3>
+          <p class="collection__text">
+            Hermano de Mario y héroe del Reino Champiñón. Luigi es reconocido
+            instantáneamente por su gorra y camisa de color verde. Luigi es
+            amable, pero un poco de nervioso, especialmente si hay fantasmas por
+            ahí.
+          </p>
+          <a class="collection__link" href="pages/shop.html">Ver Colección</a>
+        </article>
+        <picture class="collection__cover">
+          <img
+            src="images/funko_luigi.png"
+            alt="Figura coleccionable de LuigiBros"
+        /></picture>
+      </section>
+
+      <section class="collection container">
+        <article class="collection__content">
+          <h3 class="collection__title">| Yoshi |</h3>
+          <p class="collection__text">
+            Yoshi es amable y tranquilo. Utiliza su larga lengua para comerse
+            las frutas y a los enemigos, los cuales puede convertir en huevos
+            que podrá arrojar.
+          </p>
+          <a class="collection__link" href="pages/shop.html">Ver Colección</a>
+        </article>
+        <picture class="collection__cover">
+          <img
+            id="imagen_yoshi"
+            src="images/funko_yoshi.png"
+            alt="Figura coleccionable de Yoshi"
+        /></picture>
+      </section>
+      <!--======================= ULTIMOS LANZAMIENTOS =================================-->
+      <section class="slider container">
+        <h2 class="slider__title">Ultimos Lanzamientos</h2>
+
+        <ul class="slider__items">
+          <li class="slider__item">
+            <article class="card_item">
+              <a class="card-item__link" href="">
+                <picture class="card-item__cover">
+                  <span class="card-item__tag">Nuevo</span>
+                  <img
+                    class="card-item__img--front"
+                    src="images/mario_funko_venta.png"
+                    alt="Funko de Mario venta"
+                  />
+                  <img
+                    class="card-item__img--back"
+                    src="images/mario_funko_empaque.jpg"
+                    alt=""
+                  />
+                </picture>
+                <div class="card-item__content">
+                  <p class="card-item__license">Colección Mario</p>
+                  <h4 class="card-item__name">
+                    Muñeco Toyart Super Mario Bros
+                  </h4>
+                  <p class="card-item__price">$ 180,00</p>
+                  <p class="card-item__promo">4 CUOTAS SIN INTERÉS</p>
+                </div>
+              </a>
+            </article>
+          </li>
+
+          <li class="slider__item">
+            <article class="card_item">
+              <a class="card-item__link" href="">
+                <picture class="card-item__cover">
+                  <span class="card-item__tag">Nuevo</span>
+                  <img
+                    class="card-item__img--front"
+                    src="images/luigi_funko_venta.jpg"
+                    alt="Funko de Luigi venta"
+                  />
+                  <img
+                    class="card-item__img--back"
+                    src="images/luigi_funko_empaque.jpg"
+                    alt=""
+                  />
+                </picture>
+                <div class="card-item__content">
+                  <p class="card-item__license">Luigi</p>
+                  <h4 class="card-item__name">
+                    SUPER MARIO <br />
+                    Nintendo Collectible Ice Luigi 4"
+                  </h4>
+                  <p class="card-item__price">$ 150,00</p>
+                  <p class="card-item__promo">3 CUOTAS SIN INTERÉS</p>
+                </div>
+              </a>
+            </article>
+          </li>
+
+          <li class="slider__item">
+            <article class="card_item">
+              <a class="card-item__link" href="">
+                <picture class="card-item__cover">
+                  <span class="card-item__tag">Nuevo</span>
+                  <img
+                    class="card-item__img--front"
+                    src="images/yoshi_funko_venta.jpg"
+                    alt="Funko de Yoshi venta"
+                  />
+                  <img
+                    class="card-item__img--back"
+                    src="images/yoshi_funko_empaque.jpg"
+                    alt=""
+                  />
+                </picture>
+                <div class="card-item__content">
+                  <p class="card-item__license">Yoshi</p>
+                  <h4 class="card-item__name">
+                    Super Mario Yoshi <br />
+                    Figura pequeña de 2.5 in
+                  </h4>
+                  <p class="card-item__price">$ 80,00</p>
+                  <p class="card-item__promo">1 CUOTAS SIN INTERÉS</p>
+                </div>
+              </a>
+            </article>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-----------------------------------FOOTER------------------------------------------------------>
+    <footer class="footer">
+      <nav class="nabvar container">
+        <ul class="nabvar__item">
+          <li class="nabvar__items">
+            <a class="nabvar__link" href="pages/shop.html">SHOP</a>
+          </li>
+          <li class="nabvar__items">
+            <a class="nabvar__link" href="pages/register.html">REGISTRARSE</a>
+          </li>
+          <li class="nabvar__items">
+            <a class="nabvar__link" href="pages/login.html">LOGIN</a>
+          </li>
+          <li class="nabvar__items">
+            <a class="nabvar__link" href="pages/contacto.html">CONTACTO</a>
+          </li>
+        </ul>
+
+        <a href="">
+          <picture>
+            <img src="images/mario_logo_footer.png" alt="Mario Logo Footer" />
+          </picture>
+        </a>
+      </nav>
+
+      <p class="footer__copy">Derechos reservados 2023 - MarioShop</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
+  </body>
+</html>

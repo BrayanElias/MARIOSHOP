@@ -1,0 +1,87 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Raleway:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root{
+    /*============= Paleta de colores=====================  */
+    --color-black: #070707;
+    --color-blue: #0058bc;
+    --color-grey: #5a5a5a;
+    --color-grey-2: #d8d8d8;
+    --color-dark-grey: #302f2f;
+    --color-light-grey: #f0f0f0;
+    --color-red: #e70112;
+    --color-white: #fff;
+    --color-yellow: #ffdf02;
+    --color-focus-yellow: #ffd324;
+    --mario-red: #e60012;
+    --gradient-blue-purple: linear-gradient(0deg,#bc00b7,#23b2ff);
+    --gradient-blue-purple-horiz: linear-gradient(90deg,#bc00b7,#23b2ff);
+    --gradient-dark-red: linear-gradient(0deg,#b20722,var(--color-red));
+    --gradient-light-blue: linear-gradient(90deg,#def5ff,#8ec9e1);
+    --gradient-lime: #3fe049;
+    --gradient-pink: linear-gradient(0deg,#ce0036,transparent);
+    --gradient-red: linear-gradient(0deg,#d82129,var(--mario-red));
+    --gradient-yellow: linear-gradient(180deg,var(--color-yellow) 29%,#ffb500 84%);
+    --gradient-blue-lime: linear-gradient(225deg,#80ec87,#6df1c7 51%,#37cedd);
+
+    /*================= Typografia ============================ */
+
+    --base-font : 'Inter', sans-serif;
+    --alternative-font : 'Raleway', sans-serif;
+
+    /*=================== Font sizes ============================ */
+    --font-display : 4.6em;
+    --font-jumbo : 3.8em;
+    --font-xlarge : 3em;
+    --font-large : 2.4em;
+    --font-medium : 1.8em;
+    --font-small : 1.6em;
+    --font-xsmall : 1.2em;
+
+     /*=================== Spacings ============================ */
+    --spacing-128 : 12.8rem;
+    --spacing-68  : 6.8rem;
+    --spacing-36  : 3.6rem;
+    --spacing-28  : 2.8rem;
+    --spacing-16  : 1.6rem;
+    --spacing-12  : 1.2rem;
+    --spacing-8   : 8rem;
+}   
+
+
+*::before
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font-family:var(--base-font);
+    font-size: 62.5%;
+    
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--gradient-pink);
+}
+
+/*-------------------HEADER----------------*/
+
+ header{
+    background-color: #e70112;
+    border: 4px solid red;
+}
+.nabvar{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;   
+    border: 4px solid yellow;
+}
+.nabvar__menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}  
